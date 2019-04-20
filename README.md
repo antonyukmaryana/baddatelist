@@ -1,49 +1,48 @@
 # Bad Date List
 
-#### A program that allows users to make reports of violence or crime to help other people in prostitution avoid interacting with those who commit crimes against prostitutes in the hope of making people safer. 4.14.19
+#### The website is designed to support victims of human trafficking who found themselves in difficult situations that threaten their health or life . 4.14.19
 
-#### By **Marissa Perry, Kyle Harringtom, and Maryana Antonyuk**
+#### By **Marissa Perry, Kyle Harringtom and Maryana Antonyuk**
 
 ## Description
 
-A website created with HTML, CSS, Bootstrap, JavaScript, and jQuery where the user can make a report of violence, read other reports of violence, and get information on resources that can help. Check it out here: https://ohthatmarissa.github.io/baddatelist/
+A website created with HTML, CSS, JavaScript where the user can make a report, read other reports and find resources and information about organisations where they can seek help.. 
 
 
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-| **Homepage** | User accesses localhost:5004 | Homepage with user input form |
-| **Program recognizes when user clicks on "Make Reports" link**| Input: "Click "Make Report"" | Output: "Takes user to report form page"|
-| **Program regognizes when selections are made on report form** | User input: "Name, Car, Location, etc." | Output: "Tom, Red Hond Civic, Downtown" |
-| **Program returns user report form** | User input: "Selections made and Submit button clicked" | Output: "A report with inputted information is displayed under the form" |
-| **Program recognizes when user clicks on "View Reports" link** | User input: "Click "View Reports" | Output: "Takes user to view reports page" |
-| **Program recognizes when user clicks "Resources" link**| User Input: "Click "Resources"" | Output: "Takes User to resources page" |
-| **Program recognizes when user clicks resource links**| Input: "Click "Aurora Commons" link" | Output: "Takes user to Aurora Commons webpage" |
+| **Homepage** | | Homepage with general information|
+| **User clicks on "Make Reports" on the top bar**| Input: "Click "Make A Report"" | Output: "Takes a user to a report form page"|
+| **User is prompted to fill up info on a report page** | User input: "Location, Perp's Name, Description" etc. | Output: "Hotel, Jon, 'brief description of incident'" |
+| **User confirms the info by clicking submit button** | User input: Clicks "Submit" button | Output: A link with a name appears at the bottom of the form |
+| **User clicks on the link and sees the report filled** | User input: "Click on the link" | Output: "Report template gets filled with information" |
+| **Program generates report and sends to "View Reports" page**| User Input: "Click on 'View the Report" | Output: "Takes User to "View Reports" page" |
+| **Program takes to a "Resources" page**| Input: "Click on "Resources" link on the top of the page | Output: "Takes user a'Resource' page" |
 
 
 
 ## Setup/Installation Requirements
 
-1. Clone this repository.
-2. Open the index.html in browser of your choice
-3. Enjoy!
+1. To run this program, you must have any Internet browser installed. I use [Chrome](https://www.google.com/chrome/?brand=CHBD&gclid=Cj0KCQjwtMvlBRDmARIsAEoQ8zTDauh_W6y-Cpg5m7HlexhAgOV4olX-i6Lvp3uFLKp6umCRq_5j3D0aAviGEALw_wcB&gclsrc=aw.ds).
+2. Clone this repository.
+3. Open the command line--I use Terminal--type 'git clone' and repository link. 
+4. You will have access to all files. Open index.html in your Internet browser. Enjoy!
+
 
 ## Known Bugs
-* The report page is supposed to automatically display the selections from the report, under the report in an UL. However, our code does not do that. I generates a name under the report that you have to click on in order to view the report.
+* The program is designed to work with databases. As the program does not link to any at the moment, the "View Reports" page was hard coded.
 
 ## Technologies Used
 * HTML
-* CSS   
-  * Bootstrap
-* JavaScript
-  * jQuery
+* CSS (Bootstrap) 
+* JavaScript (jQuery)
 
 ## Support and contact details
 
-_Email me with any questions, comments, or concerns. ohthatmarissa@gmail.com, 	harrington.kyle@gmail.com_
-
+_Email with any questions, comments, or concerns. 
 ### License
 
-*{This software is licensed under the MIT license}*
+*This software is licensed under the MIT license*
 
-Copyright (c) 2019 **_{Marissa Perry, Kyle Harrington, Maryana Antonyuk}_**
+Copyright (c) 2019 **_Marissa Perry, Kyle Harrington, Maryana Antonyuk_**
